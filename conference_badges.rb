@@ -4,8 +4,8 @@ def badge_maker(speaker)
   return "Hello, my name is #{speaker}."
 end
 
-list_of_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creater(list_of_speakers)
-  list_of_speakers.collect {|speaker | badge_maker(speaker)}
+def batch_badge_creater(attendees)
+  attendees.collect {|speaker | badge_maker(speaker)}
 end
