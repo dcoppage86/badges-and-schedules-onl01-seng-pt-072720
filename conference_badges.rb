@@ -1,1 +1,4 @@
-# Write your code here.
+speaker = "Arel"
+
+def badge_maker(speaker)
+  return 
