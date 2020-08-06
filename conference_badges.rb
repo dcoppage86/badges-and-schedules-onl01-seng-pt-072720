@@ -7,4 +7,4 @@ end
 list_of_speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creater(list_of_speakers)
-  list_of_speakers.collect 
+  list_of_speakers.collect {|speaker
